@@ -35,6 +35,14 @@ const Home = () => {
 
   return (
     <div className="root">
+      <video
+        className="bgVideo"
+        src="/bg_video.mp4"
+        preload="true"
+        autoplay="true"
+        loop
+        muted
+      />
       <Head>
         <title>GPT-3 Writer | buildspace</title>
       </Head>
